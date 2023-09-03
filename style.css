@@ -1,0 +1,104 @@
+*,
+::after,
+::before {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  vertical-align: bottom;
+  max-width: 100%;
+  height: auto;
+}
+
+:disabled {
+  cursor: not-allowed;
+}
+
+button {
+  cursor: pointer;
+  color: #fff;
+  background: #f32c2c;
+  border: none;
+  padding: 20px 40px;
+  margin: 10px 5px;
+}
+
+iframe {
+  border: none;
+}
+
+abbr[title] {
+  cursor: help;
+}
+
+label {
+  display: inline-block;
+}
+body {
+  font: 16px rr, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+strong,
+b,
+th {
+  font-family: rb, sans-serif;
+}
+
+p {
+  font-family: rr, sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 10px;
+}
+
+.row {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 0 -10px;
+}
+
+.row [class^="col"] {
+  flex: 1 0 auto;
+  padding: 0 10px;
+}
+
+.row .col-1 {
+  flex-basis: 8.33%;
+}
+.row .col-2 {
+  flex-basis: 16.66%;
+}
+.row .col-3 {
+  flex-basis: 25%;
+}
+.row .col-4 {
+  flex-basis: 33.33%;
+  max-width: 33.33%;
+}
+
+.boxItem {
+  padding: 20px;
+  background: #fcf7f7;
+  margin: 10px 0;
+  border-radius: 10px;
+  text-align: center;
+}
+.boxItem h2 {
+  color: #f32c2c;
+  margin: 10px 0;
+}
+.boxItem h3 {
+  margin: 10px 0;
+}
